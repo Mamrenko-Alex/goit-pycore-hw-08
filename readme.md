@@ -15,9 +15,11 @@ This is a simple address book application in Python that allows you to manage co
 ## How to Run
 
 ### Prerequisites
+
 - Python 3.x installed on your machine.
 
 ### Steps to Run
+
 1. Clone or download this repository.
 2. Open a terminal or command prompt.
 3. Navigate to the folder containing the files.
@@ -30,17 +32,17 @@ This is a simple address book application in Python that allows you to manage co
 
 ## Commands
 
-| Command                | Description                                                        |
-|------------------------|--------------------------------------------------------------------|
-| `hello`                | Displays a greeting message.                                      |
-| `add <name> <phone>`   | Adds a new contact. Optionally, you can add a birthday (DD.MM.YYYY). |
-| `change <name> <old_phone> <new_phone>` | Updates a contact's phone number.                              |
-| `phone <name>`         | Displays the phone numbers for the specified contact.             |
-| `add-birthday <name> <birthday>` | Adds or updates the birthday for a contact.                    |
-| `show-birthday <name>` | Displays the birthday of the specified contact.                   |
-| `all`                  | Displays all saved contacts.                                      |
-| `birthdays`            | Shows contacts with upcoming birthdays in the next 7 days.        |
-| `close` or `exit`      | Exits the program and saves the address book data to a file.      |
+| Command                                   | Description                                                          |
+| ----------------------------------------- | -------------------------------------------------------------------- |
+| `hello`                                   | Displays a greeting message.                                         |
+| `add <name> <phone> <birthday>(optional)` | Adds a new contact. Optionally, you can add a birthday (DD.MM.YYYY). |
+| `change <name> <old_phone> <new_phone>`   | Updates a contact's phone number.                                    |
+| `phone <name>`                            | Displays the phone numbers for the specified contact.                |
+| `add-birthday <name> <birthday>`          | Adds or updates the birthday for a contact.                          |
+| `show-birthday <name>`                    | Displays the birthday of the specified contact.                      |
+| `all`                                     | Displays all saved contacts.                                         |
+| `birthdays`                               | Shows contacts with upcoming birthdays in the next 7 days.           |
+| `close` or `exit`                         | Exits the program and saves the address book data to a file.         |
 
 ---
 
@@ -54,7 +56,7 @@ The application saves all contact data to a file named `addressbook.pkl` using t
 ---
 
 ## Notes
+
 - Phone numbers must be exactly 10 digits.
 - Birthdays must follow the format `DD.MM.YYYY`.
 - Ensure the `addressbook.pkl` file is in the same directory to restore data during application startup.
-
